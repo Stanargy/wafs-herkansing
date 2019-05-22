@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/keyframes.css">
+    <link rel="stylesheet" href="public/css/media.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+        <!-- Fonts   -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <title>Minor Web development</title>
+</head>
+
+<body>
+<div id="bg"><i class="fas fa-utensils"></i></div>
+
+<header>
+    <h1 class="Title">Food 2 Fork API</h1>
+</header>
+
+<!-- NAV -->
+    <aside>
+        
+        <a href="https://github.com/Stanargy/web-app-from-scratch-18-19" target="_blank">
+            <i class="fab fa-github fa-3x"></i>
+        </a>
+        
+        <a href="https://nl.linkedin.com/in/stan-ooms-906916120" target="_blank">
+            <i class="fab fa-linkedin  fa-3x"></i>
+        </a>
+
+        <a href="https://www.instagram.com/stan_ooms/" target="_blank">
+            <i class="fab fa-instagram fa-3x"></i>
+        </a>
+        
+    </aside>
+    <!-- ----------------------------------------------------------------- -->
+    
+    
+
+    
+    <!-- API  -->
+
+    <section class="overview">  
+    <form>
+        <h2>Get API Data</h2>
+                    <p>
+                        <input id="searchQueryInput" type="text" placeholder="1 Food">
+                    </input>
+                </p>
+
+                <p>Filter</p>
+                <select id="filterInput">
+                <option value="Energy">Energy</option>
+                <option value="Protein">Protein</option>
+                <option value="Fat">Fat</option>
+                <option value="Fiber">Fiber</option>
+                <option value="Sugar">Sugar</option>
+              </select>
+
+                <select id="overview"></select>
+                <a href="#products" id="APIButton" type="submit">Submit</a>
+                </form>
+            </div>
+        </section>
+<div id="products"></div>
+
+
+
+
+
+<!-- NUTRIENT TABLE -->
+<div id="tableContainer">
+  <h2 id="productName"><h5>/100g</h5></h2>  
+  <table class="productTable">
+    <tr>
+                      <th class="tg-0lax">Name</th>
+                      <th class="tg-0lax">Unit</th>
+                      <th class="tg-0lax">Quantity</th>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                        <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                      <td class="tg-0lax"></td>
+                    </tr>
+                  </table>
+
+
+</div>
+
+
+<!-- FOOTER -->
+<footer>    
+        <a href="https://github.com/Stanargy/" target="_blank">
+            <p>Design by stanooms96@gmail.com</p>
+        </a>
+        
+        
+        <a href="https://github.com/Stanargy/web-app-from-scratch-18-19" target="_blank">
+            <p>Web-App From Scratch. HvA.</p>
+        </a>
+   
+</footer>
+<!-- <footer>
+    <a id="credit" href="#">
+        <p>USDA Food Composition Databases. United States Department of Agriculture. 2019.  https://ndb.nal.usda.gov/ndb/search/list?home=true</p>
+    </a>
+</footer> -->
+
+
+
+<!-- Core  -->
+<script src="public/js/init.js" type="module"> </script>
+
+</body>
+
+</html>

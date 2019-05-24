@@ -16,12 +16,14 @@ const render = {
         const container = document.querySelector('#products')
         // show loader
         states.loading(container)
-
+container.style.opacity = "1";
+container.style.zIndex = "10";
         // call API
         const query = document.querySelector('#searchQueryInput').value
         const selectedValue = document.querySelector('#overview').value
         const data = await API.getData(`${API.urlOneGroup}${query}&sort=n&max=25&offset=0&fg=${selectedValue}&api_key=${key.key}&lt=nr`)
         render.removeElements(container);
+
         states.loaded()
 
         // log url

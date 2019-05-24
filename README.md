@@ -91,7 +91,7 @@ const storage = {
 
 
 ## 6. Interaction Diagram
-![Interaction Diagram Image](v4.0/public/img/interactionDiagram.jpg)
+![Interaction Diagram Image](v4.0/public/img/interactionDiagram.JPG)
 
 ## 7. Design Decisions
 For this website I've chosen to use a rectangular layout with the containers that are used for the core features centered at all times. This gives the user a good overview of what the site has to offer.  

@@ -87,11 +87,11 @@ const storage = {
 
 
 ## 5. Actor Diagram
-![Actor Diagram Image](public/img/actorDiagram.JPG)
+![Actor Diagram Image](wafs-herkansing/public/img/actorDiagram.JPG)
 
 
 ## 6. Interaction Diagram
-![Interaction Diagram Image](public/img/interactionDiagram.JPG)
+![Interaction Diagram Image](wafs-herkansing/public/img/interactionDiagram.JPG)
 
 ## 7. Design Decisions
 For this website I've chosen to use a rectangular layout with the containers that are used for the core features centered at all times. This gives the user a good overview of what the site has to offer.  
